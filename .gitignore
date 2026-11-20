@@ -1,0 +1,29 @@
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated firmware build files
+firmware/build/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+
+# Local backups
+*.bak
+*_backup.txt
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Windows files
+Thumbs.db
+Desktop.ini

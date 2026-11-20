@@ -1,0 +1,4 @@
+Case,MeasuredOutputV,DutyCommandPct,Status,Request,Response,InputVoltageV,LoadResistanceOhm,ML_EstimatedOutputV,EstimateMinusInjectedV
+Below target,19.5,41.5,Below target (orange),5,5,12.0,40.0,20.651,1.151
+At target,20,40.5,In range (green),6,6,12.0,40.0,20.448,0.448
+Above target,20.6,39.2,Above target / invalid (red),7,7,12.0,40.0,20.132,-0.468
